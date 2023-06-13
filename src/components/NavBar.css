@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-link {
+  display: flex;
+  gap: 0.5em;
+  padding-right: 0.5em;
+}
+
+.brand {
+  font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
+  padding-left: 0.5em;
+}
+
+.active-link {
+  color: aquamarine;
+  background-color: gray;
+  padding: 0.25rem;
+  border-radius: 0.2rem;
+}
+
+.non-active-link {
+  color: red;
+}
